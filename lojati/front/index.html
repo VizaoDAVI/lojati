@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LojaDeTi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="div1">
+            <h1>Loja de T.I</h1>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="container_formulario">
+            <h2>Cadastro de Cliente</h2>
+
+            <form action="http://localhost/lojati/back/index.php" method="post">
+
+                <input type="text" name="nome" placeholder="Digite o nome:" required>
+
+                <input type="email" name="email" placeholder="Digite o email:" required>
+
+                <input type="text" name="telefone" placeholder="Digite o telefone:" required>
+
+                <input type="text" name="endereco" placeholder="Digite o endereço:" required>
+
+                <input type="submit" value="Enviar" id="botao">
+
+            </form>
+        </div>
+    </div>
+
+    <div class="produtos">
+        <h2>Nossos Produtos</h2>
+
+        <div class="lista-produtos">
+
+            <div class="produto">
+                <img src="processador.jpg" alt="Processador">
+                <h3>Processador</h3>
+                <p>Alto desempenho para seu computador.</p>
+                <span>R$ 899,90</span>
+            </div>
+
+            <div class="produto">
+                <img src="placadevideo.jpg" alt="Placa de vídeo">
+                <h3>Placa de Vídeo</h3>
+                <p>Ideal para jogos e programas gráficos.</p>
+                <span>R$ 1.499,90</span>
+            </div>
+
+            <div class="produto">
+                <img src="teclado.jpg" alt="Teclado gamer">
+                <h3>Teclado Gamer</h3>
+                <p>Conforto e precisão para jogar.</p>
+                <span>R$ 199,90</span>
+            </div>
+
+            <div class="produto">
+                <img src="mouse.webp" alt="Mouse gamer">
+                <h3>Mouse Gamer</h3>
+                <p>Precisão para o dia a dia.</p>
+                <span>R$ 99,90</span>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
